@@ -1,0 +1,17 @@
+TextField
+{
+-fx-background-color:
+linear-gradient(to top right ,#dfb4fa, transparent);
+-fx-border-color: #cd84fa;
+-fx-border-radius: 15;
+-fx-background-radius: 15;
+}
+
+TextField:hover
+{
+-fx-background-color:
+linear-gradient(to top right ,#dfb4fa,#dfb4fa );
+-fx-border-color: #cd84fa;
+-fx-border-radius: 15;
+-fx-background-radius: 15;
+}

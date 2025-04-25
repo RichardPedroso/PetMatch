@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poo.petmatch.controladores.TelaOpcoesAdministradorController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/Tela-opcoes-administrador/Fundo-opcoes-administrador/fundoGerenciamento.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="631.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O que deseja gerenciar?">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Text>
+      <Button id="botaoAnimais" fx:id="botaoAnimais" layoutX="410.0" layoutY="430.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="326.0" stylesheets="@../styles/styles-opcoes-administrador/botao-animais.css" text="Animais">
+         <font>
+            <Font size="33.0" />
+         </font></Button>
+      <Button id="botaoUsuarios" fx:id="botaoUsuarios" layoutX="1181.0" layoutY="435.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="326.0" stylesheets="@../styles/styles-opcoes-administrador/usuario.css" text="Usuários">
+         <font>
+            <Font size="33.0" />
+         </font></Button>
+      <Button fx:id="botaoVoltarParaTelaLogin" layoutX="845.0" layoutY="563.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="222.0" stylesheets="@../styles/styles-opcoes-administrador/voltar-tela-login.css" text="Voltar para a Tela de Login">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="botaoRelatorioAnimaisAdotados" layoutX="845.0" layoutY="494.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="222.0" stylesheets="@../styles/styles-opcoes-administrador/botao-voltar.css" text="Relatório de animais adotados">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="labelRespostaRelatorio" layoutX="848.0" layoutY="527.0" text="Resposta relatório">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

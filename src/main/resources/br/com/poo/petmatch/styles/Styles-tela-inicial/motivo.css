@@ -1,0 +1,19 @@
+Pane
+{
+-fx-background-color:linear-gradient(to right,#f0aeff,#ecd7ff);
+-fx-background-radius: 0
+40
+40
+0;
+
+}
+
+Pane:hover
+{
+-fx-background-color:#f0aeff;
+-fx-background-radius: 0
+40
+40
+0;
+
+}

@@ -1,0 +1,9 @@
+TextField
+{
+-fx-background-color:transparent;
+-fx-background-radius: 8;
+-fx-border-color: black;
+-fx-border-radius: 8;
+-fx-text-fill: black;
+-fx-prompt-text-fill:black;
+}

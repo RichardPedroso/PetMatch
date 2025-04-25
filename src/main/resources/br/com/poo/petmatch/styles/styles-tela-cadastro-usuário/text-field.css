@@ -1,0 +1,24 @@
+TextField
+{
+-fx-background-color:
+                              linear-gradient(to top right , #d25333, transparent);
+                      -fx-background-radius: 10;
+                      -fx-border-color:transparent;
+                      -fx-border-radius: 10;
+                      -fx-border-color: black;
+                      -fx-border-radius:10;
+}
+
+
+TextField:hover
+{
+-fx-background-color:
+                              linear-gradient(to top right , #d25333, #d25333);
+                      -fx-background-radius: 10;
+                      -fx-border-color:transparent;
+                      -fx-border-radius: 10;
+                      -fx-border-color: black;
+                      -fx-border-radius:10;
+
+
+}

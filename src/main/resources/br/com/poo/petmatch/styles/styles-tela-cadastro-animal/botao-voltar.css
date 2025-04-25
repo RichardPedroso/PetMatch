@@ -1,0 +1,23 @@
+.button
+{
+-fx-background-color:
+        linear-gradient(#2e613c,transparent);
+-fx-background-radius: 20;
+-fx-border-color:black;
+
+-fx-border-radius:20;
+-fx-text-fill: white;
+
+}
+
+
+.button:hover
+{
+-fx-background-color:#2e613c;
+-fx-background-radius: 20;
+-fx-border-color:black;
+
+-fx-border-radius:20;
+
+-fx-text-fill: black;
+}

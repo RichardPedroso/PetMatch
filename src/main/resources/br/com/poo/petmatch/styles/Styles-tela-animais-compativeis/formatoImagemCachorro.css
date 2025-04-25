@@ -1,0 +1,7 @@
+.rounded-border {
+    -fx-background-color: white;
+    -fx-background-radius: 50;
+    -fx-border-color: black;
+    -fx-border-width: 5;
+    -fx-border-radius: 50;
+}

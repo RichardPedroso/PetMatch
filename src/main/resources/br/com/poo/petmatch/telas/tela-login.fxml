@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poo.petmatch.controladores.TelaLoginController">
+    <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/Tela-login/Fundo-login/Fundo_login.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="292.0" fitWidth="362.0" layoutX="1339.0" layoutY="346.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Caixa-login/caixaDadosLogin.png" />
+         </image>
+      </ImageView>
+        <Text layoutX="1471.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Text>
+        <TextField fx:id="caixaSenha" layoutX="1417.0" layoutY="505.0" prefHeight="27.0" prefWidth="205.0" promptText="Senha" stylesheets="@../styles/Styles-tela-login/field.css">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <Text fill="WHITE" layoutX="1426.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="1426.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <TextField fx:id="caixaEmail" layoutX="1417.0" layoutY="451.0" prefHeight="27.0" prefWidth="205.0" promptText="Insira o Email" stylesheets="@../styles/Styles-tela-login/field.css">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <ImageView layoutX="1617.0" layoutY="284.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Nome-site/gato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="3.0" fitWidth="200.0" layoutX="1419.0" layoutY="331.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Nome-site/Linha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="199.0" layoutX="1419.0" layoutY="293.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Nome-site/Nome_Projeto.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="1370.0" layoutY="283.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Nome-site/cachorro-sentado.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="1589.0" layoutY="454.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Caixa-login/iconeEmail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="33.0" layoutX="1587.0" layoutY="508.0">
+         <image>
+            <Image url="@../imagens/Tela-login/Caixa-login/iconeSenha.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botaoEntrar" layoutX="1421.0" layoutY="578.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="66.0" stylesheets="@../styles/Styles-tela-login/botao-login.css" text="Entrar" textFill="WHITE" />
+      <Label fx:id="labelRespostaLogin" layoutX="1406.0" layoutY="537.0" text="Resposta Login" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Button fx:id="botaoNaoTenhoConta" layoutX="1491.0" layoutY="578.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" stylesheets="@../styles/Styles-tela-login/nao-tenho-conta.css" text="Não tenho conta" />
+    </children>
+</AnchorPane>

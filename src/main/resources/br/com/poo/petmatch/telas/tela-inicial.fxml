@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../styles/Styles-tela-inicial/anchor-pane.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poo.petmatch.controladores.TelaInicialController">
+   <children>
+      <Pane layoutX="1767.0" prefHeight="1080.0" prefWidth="153.0" stylesheets="@../styles/Styles-tela-inicial/pane-borda-direita.css">
+         <children>
+            <ImageView fx:id="iconeManual" fitHeight="88.0" fitWidth="100.0" layoutX="35.0" layoutY="806.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/Tela-principal-adocao/icones-utilitarios/iconeManual.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="51.0" layoutY="911.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manual">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font></Text>
+            <ImageView fx:id="iconeUsuario" fitHeight="64.0" fitWidth="64.0" layoutX="46.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/Tela-principal-adocao/icones-utilitarios/iconeUsuario.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="49.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="iconeSair" fitHeight="64.0" fitWidth="64.0" layoutX="53.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/Tela-principal-adocao/icones-utilitarios/iconeSair.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="61.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sair">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="iconeMeusPets" fitHeight="159.0" fitWidth="139.0" layoutX="8.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/Tela-Inicial-motivos/meus-pets.png" />
+               </image></ImageView>
+            <Text layoutX="40.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meus Pets">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="botaoSobrePetMatch" layoutX="8.0" layoutY="667.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="139.0" stylesheets="@../styles/Styles-tela-inicial/botao-informação.css" text="Informações">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelRespostaMeusPets" layoutX="6.0" layoutY="557.0" prefHeight="107.0" prefWidth="139.0" text="Resposta Meus Pets">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="botaoAvancar" layoutX="1308.0" layoutY="472.0" mnemonicParsing="false" prefHeight="236.0" prefWidth="408.0" stylesheets="@../styles/Styles-tela-inicial/botao-adotar.css" text="Me Adote">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Pane layoutY="192.0" prefHeight="180.0" prefWidth="1300.0" stylesheets="@../styles/Styles-tela-inicial/motivo.css">
+         <children>
+            <Text layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salvar uma vida: Dar uma nova chance a um cãozinho resgatado.">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="77.0" layoutX="894.0" layoutY="61.0">
+               <image>
+                  <Image url="@../imagens/Tela-Inicial-motivos/salvar-vidas.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="-1.0" layoutY="395.0" prefHeight="180.0" prefWidth="1300.0" stylesheets="@../styles/Styles-tela-inicial/motivo.css">
+         <children>
+            <Text layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Companhia: Cães oferecem amor e lealdade incondicional.">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="77.0" layoutX="892.0" layoutY="59.0">
+               <image>
+                  <Image url="@../imagens/Tela-Inicial-motivos/homem-e-cachorro.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="820.0" prefHeight="180.0" prefWidth="1300.0" stylesheets="@../styles/Styles-tela-inicial/motivo.css">
+         <children>
+            <Text layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Controle Populacional: Reduz o número de cães em perigo nas ruas.">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="77.0" layoutX="901.0" layoutY="68.0">
+               <image>
+                  <Image url="@../imagens/Tela-Inicial-motivos/reducao.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="64.0" layoutY="49.0" prefHeight="110.0" prefWidth="816.0" stylesheets="@../styles/Styles-tela-inicial/porque-adotar-animal.css">
+         <children>
+            <Text layoutX="23.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Por que adotar um animal?">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="607.0" prefHeight="180.0" prefWidth="1300.0" stylesheets="@../styles/Styles-tela-inicial/motivo.css">
+         <children>
+            <Text layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saúde: Melhora da saúde mental e física.">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="64.0" fitWidth="77.0" layoutX="895.0" layoutY="67.0">
+               <image>
+                  <Image url="@../imagens/Tela-Inicial-motivos/saude.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="107.0" fitWidth="114.0" layoutX="1593.0" layoutY="393.0">
+         <image>
+            <Image url="@../imagens/Tela-Inicial-motivos/cachorro.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

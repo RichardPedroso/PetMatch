@@ -1,0 +1,17 @@
+.button
+{
+-fx-background-color: linear-gradient(to left, transparent, #e5c49b);
+-fx-background-radius: 10;
+-fx-border-color: black;
+-fx-border-radius: 10;
+
+}
+
+.button:hover
+{
+-fx-background-color: #e5c49b;
+-fx-background-radius: 10;
+-fx-border-color: black;
+-fx-border-radius: 10;
+
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poo.petmatch.controladores.TelaUtilitariosSobrePetMatchController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@../imagens/Tela-utilitários-sobre-petmatch/Racoon_Filhote-2-1024x684.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="1148.0" layoutY="429.0" prefHeight="316.0" prefWidth="374.0" stylesheets="@../styles/Styles-tela-sobre-petmatch/pane.css">
+         <effect>
+            <GaussianBlur radius="20.0" />
+         </effect>
+      </Pane>
+      <Pane layoutX="419.0" layoutY="163.0" prefHeight="316.0" prefWidth="460.0" stylesheets="@../styles/Styles-tela-sobre-petmatch/pane.css">
+         <effect>
+            <GaussianBlur radius="20.0" />
+         </effect>
+      </Pane>
+      <Pane layoutX="323.0" layoutY="608.0" prefHeight="316.0" prefWidth="666.0" stylesheets="@../styles/Styles-tela-sobre-petmatch/pane.css">
+         <effect>
+            <GaussianBlur radius="20.0" />
+         </effect>
+      </Pane>
+      <Text layoutX="445.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O que é PetMatch?">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="455.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PetMatch é um projeto desenvolvido para: facilitar a adoção de animais de forma responsável e, com isso, concientizar as pessoas que estão utilizando o aplicativo. " textAlignment="CENTER" wrappingWidth="393.146484375">
+         <font>
+            <Font size="25.0" />
+         </font></Text>
+      <Text layoutX="405.0" layoutY="671.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Objetivos do PetMatch">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="332.0" layoutY="729.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Concientizar as pessoas contra o abandono de  animais." textAlignment="CENTER">
+         <font>
+            <Font size="26.0" />
+         </font></Text>
+      <Text layoutX="407.0" layoutY="802.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facilitar a adoção de animais abandonados." textAlignment="CENTER" wrappingWidth="504.1640625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="363.0" layoutY="875.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reduzir o número de animais encontrados nas ruas." textAlignment="CENTER">
+         <font>
+            <Font size="26.0" />
+         </font></Text>
+      <Text layoutX="1246.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parceria">
+         <font>
+            <Font size="56.0" />
+         </font>
+      </Text>
+      <Text layoutX="1203.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parceria com a Sociedade Protetora dos Animais de Santa Rita do Sapucaí." textAlignment="CENTER" wrappingWidth="282.244140625">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="botaoVoltar" layoutX="1734.0" layoutY="71.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="100.0" stylesheets="@../styles/Styles-tela-sobre-petmatch/button.css" text="Voltar">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poo.petmatch.controladores.TelaCachorroCadastroController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/Tela-cachorro-cadastro/Fundo-tela-cachorro-cadastro/fundoTelaCadastroCachorro.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="caixaNome" layoutX="119.0" layoutY="272.0" prefHeight="41.0" prefWidth="200.0" promptText="Nome" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaIdade" layoutX="119.0" layoutY="340.0" prefHeight="41.0" prefWidth="200.0" promptText="Idade" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaRaca" layoutX="119.0" layoutY="408.0" prefHeight="41.0" prefWidth="200.0" promptText="Raça" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaPorte" layoutX="118.0" layoutY="471.0" prefHeight="41.0" prefWidth="200.0" promptText="Porte" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaVacinado" layoutX="116.0" layoutY="531.0" prefHeight="41.0" prefWidth="200.0" promptText="Vacinado" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaObservacoes" layoutX="116.0" layoutY="728.0" prefHeight="41.0" prefWidth="200.0" promptText="Observações" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaPelagem" layoutX="117.0" layoutY="661.0" prefHeight="41.0" prefWidth="200.0" promptText="Pelagem" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="botaoCadastrar" layoutX="926.0" layoutY="419.0" mnemonicParsing="false" prefHeight="186.0" prefWidth="299.0" stylesheets="@../styles/styles-tela-cadastro-cachorro/botao-voltar.css" text="Cadastrar">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoVoltar" layoutX="1734.0" layoutY="71.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="100.0" stylesheets="@../styles/styles-tela-cadastro-cachorro/botao-voltar.css" text="Voltar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="caixaPersonalidadeAnimal" layoutX="395.0" layoutY="371.0" prefHeight="41.0" prefWidth="215.0" promptText="Calmo | Brincalhão | Aventureiro" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaTipoMoradia" layoutX="395.0" layoutY="435.0" prefHeight="41.0" prefWidth="215.0" promptText="Casa | Apartamento" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaTamanhoMoradia" layoutX="395.0" layoutY="498.0" prefHeight="41.0" prefWidth="215.0" promptText="Pequena | Média | Grande" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaTipoAmbiente" layoutX="397.0" layoutY="631.0" prefHeight="41.0" prefWidth="215.0" promptText="Calmo | Agitado" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="caixaPodeFicarComPets" layoutX="397.0" layoutY="562.0" prefHeight="41.0" prefWidth="215.0" promptText="Sim | Não" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="imagemAnimal" fitHeight="240.0" fitWidth="240.0" layoutX="646.0" layoutY="561.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="botaoAdicionarImagemCachorro" layoutX="683.0" layoutY="498.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="166.0" stylesheets="@../styles/styles-tela-cadastro-cachorro/adicionar-imagem.css" text="Adicionar imagem">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <TextField fx:id="caixaSexo" layoutX="116.0" layoutY="595.0" prefHeight="41.0" prefWidth="200.0" promptText="Sexo" stylesheets="@../styles/styles-tela-cadastro-cachorro/perguntas.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="checkBoxAnimalFicticio" layoutX="704.0" layoutY="444.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="125.0" text="Animal Fícticio" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></CheckBox>
+      <Label fx:id="labelRespostaCadastroCachorro" layoutX="963.0" layoutY="605.0" prefHeight="27.0" prefWidth="370.0" text="Resposta cadastro cachorro" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fill="#ffffff00" height="240.0" layoutX="646.0" layoutY="561.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" width="240.0" />
+      <Text fill="WHITE" layoutX="397.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personalidade Animal">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="397.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo Moradia">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="397.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tamanho Moradia">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="397.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pode ficar com outros Pets">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="397.0" layoutY="627.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ambiente calmo ou agitado">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+PasswordField
+{
+
+-fx-background-color:  transparent;
+-fx-border-color: red;
+-fx-border-radius: 3%;
+-fx-text-fill: white;
+}
